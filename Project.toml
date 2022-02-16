@@ -1,0 +1,20 @@
+name = "MultivariateNormalityTests"
+uuid = "13413e80-1755-480c-a9c7-fa33b610f92f"
+authors = ["Yijun Xie"]
+version = "0.1.0"
+
+[deps]
+Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
+HypothesisTests = "09f84164-cd44-5f33-b23f-e6b0d136a0d5"
+MultivariateStats = "6f286f6a-111f-5878-ab1e-185364afe411"
+OwnTime = "18732c20-e27e-497f-aa49-3bf01a8fc721"
+ProjectionPursuit = "0eeb11d1-cc9e-46d1-8e67-fc3369e51b39"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
